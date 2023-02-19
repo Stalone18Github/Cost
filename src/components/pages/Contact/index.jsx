@@ -1,3 +1,3 @@
 export function Contact() {
-  return <p>Contacto</p>;
+  return <h1>Contacto</h1>;
 }

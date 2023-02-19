@@ -1,4 +1,6 @@
-import globalStyle from "globalStyle.module.css";
-export function Conatiner({ children }) {
-  return <div></div>;
+import styles from "./index.module.css";
+export function Container({ children, costumer }) {
+  return (
+    <div className={`${styles.container} ${styles[costumer]}`}>{children}</div>
+  );
 }

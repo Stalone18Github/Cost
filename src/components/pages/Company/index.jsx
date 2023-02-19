@@ -1,3 +1,3 @@
 export function Company() {
-  return <p>Empresa</p>;
+  return <h1>Empresa</h1>;
 }

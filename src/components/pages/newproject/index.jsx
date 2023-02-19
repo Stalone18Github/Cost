@@ -1,3 +1,3 @@
 export function Newproject() {
-  return <p>Novo projeto</p>;
+  return <h1>Novo projeto</h1>;
 }
