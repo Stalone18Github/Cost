@@ -1,0 +1,202 @@
+.serviceGroup {
+  width: 100%;
+  padding: 12px;
+}
+
+.serviceGroup div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.serviceGroup .divloading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceGroup .divloading img {
+  width: 100px;
+  height: 100px;
+}
+
+.serviceGroup div ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 520px;
+  overflow-y: scroll;
+}
+
+.serviceGroup div ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 2px solid #ffbb33;
+}
+
+.serviceGroup div ul li .serviceProps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.serviceGroup div ul li .serviceProps .serviceSpan {
+  color: #ffbb33;
+  font-weight: bolder;
+}
+
+.serviceGroup div ul li .serviceProps .serviceSpan span {
+  color: darkgray;
+  font-weight: normal;
+}
+
+.serviceGroup div ul li div .serviceActionEdit {
+  border: 2px solid #8ff049;
+  color: #8ff049;
+  margin-right: 8px;
+  transition: 1s;
+}
+
+.serviceGroup div ul li div .serviceActionEdit:hover {
+  color: white;
+  background: #8ff049;
+}
+
+.serviceGroup div ul li div .serviceActionDelete {
+  border: 2px solid #f04949;
+  color: #f04949;
+  margin-right: 8px;
+  transition: 1s
+}
+
+.serviceGroup div ul li div .serviceActionDelete:hover {
+  color: white;
+  background: #f04949;
+}
+
+.serviceGroup div button {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  background: #efffef;
+  padding: 9px;
+  border-radius: 8px;
+}
+
+.serviceGroup div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.serviceGroup div a svg {
+  width: 100%;
+  height: 100%;
+}
+
+.serviceGroup div a .delete {
+  color: #f04949;
+}
+
+.serviceGroup div a .edit {
+  color: #8ff049;
+}
+
+.serviceGroup div button:hover {
+  color: #ffbb33;
+  border: 2px solid #ffbb33;
+}
+
+.serviceGroup div .serviceImg {
+  width: 550px;
+  height: 480px;
+}
+
+.serviceGroup div .serviceImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.serviceGroup div form {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.serviceGroup div form div {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.serviceGroup div form .massageSend {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: #8ff049;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.serviceGroup div form div button {
+  border: 2px solid #8ff049;
+  color: #8ff049;
+  margin-right: 8px;
+  padding: 10px 30px;
+  transition: 1s;
+}
+
+.serviceGroup div form div button:hover {
+  color: white;
+  background: #8ff049;
+  border: #8ff049 solid 2px;
+}
+
+.serviceGroup div form input {
+  width: 380px;
+  height: 49px;
+  padding: 0px 8px;
+  border-radius: 8px;
+  border: white 1px solid;
+  color: #ffbb33;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.serviceGroup div form select {
+  width: 380px;
+  height: 49px;
+  border: white 1px solid;
+  color: white;
+  border-radius: 8px;
+  padding: 0px 8px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.serviceGroup div form select:focus {
+  outline-color: #ffbb33;
+  color: #ffbb33;
+}
+
+.optionSelect {
+  width: 100%;
+  height: 100%;
+}
+
+.serviceGroup div form input::placeholder {
+  color: white;
+}
+
+.serviceGroup div form input:focus {
+  outline-color: #ffbb33;
+}

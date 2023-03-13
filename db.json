@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "name": "stalone",
+      "createAt": "2023-03-02T14:19:01.632Z",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Tigela",
+      "createAt": 0,
+      "updateAt": 0
+    }
+  ],
+  "users": [
+    {
+      "name": "Francisco",
+      "createAt": "2023-03-02T12:12:51.170Z",
+      "id": 2
+    },
+    {
+      "name": "francisco luis da costa joaquim",
+      "createAt": "2023-03-02T12:21:15.420Z",
+      "id": 4
+    },
+    {
+      "name": "stalone",
+      "createAt": "2023-03-02T13:20:40.686Z",
+      "id": 5
+    },
+    {
+      "name": "Da costa luis joaquim",
+      "createAt": "2023-03-05T23:39:17.092Z",
+      "updateAt": "2023-03-05T23:39:43.523Z",
+      "id": 6
+    }
+  ]
+}

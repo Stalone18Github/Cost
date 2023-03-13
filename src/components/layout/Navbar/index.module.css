@@ -14,13 +14,21 @@
 
 .item {
   margin-left: 1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .item a {
   color: #fff;
   text-decoration: none;
+
 }
 
 .item a:hover {
+  color: #ffbb33;
+}
+
+svg {
   color: #ffbb33;
 }

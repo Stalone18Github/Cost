@@ -1,0 +1,30 @@
+.styleFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  min-height: 19vh;
+}
+
+.styleFooter ul {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+}
+
+.styleFooter ul li {
+  text-decoration: none;
+}
+
+.styleFooter ul li svg {
+  width: 52px;
+  height: 32px;
+}
+
+.styleFooter p {
+  color: aliceblue;
+  padding: 7px;
+}
